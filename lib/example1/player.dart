@@ -1,9 +1,9 @@
 import 'dart:async';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:singplay/widgets/playerView.dart';
+import 'playerView.dart';
+
 
 class Player extends StatefulWidget {
   const Player({super.key});
