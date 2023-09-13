@@ -37,6 +37,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   just_audio: ^0.9.34
   audio_video_progress_bar: ^2.0.0
+  file: ^6.1.4
+  path: ^1.8.3
+  record: ^4.4.4
+  audioplayers: ^5.1.0
 
 dev_dependencies:
   flutter_test:

@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:singplay/example2/musicScreen.dart';
-import 'package:singplay/example1/player.dart';
+import 'package:singplay/example3/recordScreen.dart';
 
-void main() {
+void main(){
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,overlays: []);
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown
       ),
-      home: const MusicScreen(),
+      home: const AudioRecordScreen()//MusicScreen(),
     );
   }
 }
