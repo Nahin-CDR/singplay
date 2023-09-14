@@ -345,7 +345,7 @@ packages:
     source: hosted
     version: "0.4.1"
   record_macos:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: record_macos
       sha256: d1d0199d1395f05e218207e8cacd03eb9dc9e256ddfe2cfcbbb90e8edea06057
@@ -353,7 +353,7 @@ packages:
     source: hosted
     version: "0.2.2"
   record_platform_interface:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: record_platform_interface
       sha256: "7a2d4ce7ac3752505157e416e4e0d666a54b1d5d8601701b7e7e5e30bec181b4"

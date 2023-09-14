@@ -41,6 +41,8 @@ dependencies:
   path: ^1.8.3
   record: ^4.4.4
   audioplayers: ^5.1.0
+  record_macos: ^0.2.2
+  record_platform_interface: ^0.5.0
 
 dev_dependencies:
   flutter_test:
