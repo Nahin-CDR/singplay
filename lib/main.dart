@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:singplay/example2/musicScreen.dart';
 import 'package:singplay/example3/recordScreen.dart';
+import 'package:singplay/example4/recordScreen.dart';
+import 'package:singplay/homeScreen.dart';
 
 void main(){
   // WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown
       ),
-      home: const AudioRecordScreen()//MusicScreen(),
+      home: const HomeScreen()//AudioRecorder()//AudioRecordScreen()//MusicScreen(),
     );
   }
 }
